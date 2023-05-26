@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Machine Learning Postdoctoral Fellow at <a href='https://www.lbl.gov'>Lawrence Berkeley National Lab</a>.
 
 profile:
   align: right
