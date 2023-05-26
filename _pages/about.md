@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Postdoctoral Fellow at <a href='https://www.lbl.gov'>Lawrence Berkeley National Lab</a>.
+subtitle: Machine Learning Postdoctoral Research Fellow at <a href='https://www.lbl.gov'>Lawrence Berkeley National Lab</a>.
 
 profile:
   align: right
@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a physicist & Machine Learning Postdoctoral Research Fellow at the Lawrence Berkeley National Lab (LBNL) developing ML&AI applications and tools for particle physics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to joining LBNL, I obtained my PhD in Physics at the University of Wisconsin-Madison in 2023. During my PhD, I studied experimental high energy physics and contributed to the ATLAS experiment at CERN, with a thesis titled “Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding”.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside academic, I enjoy hiking, skiing, playing piano and drums.
