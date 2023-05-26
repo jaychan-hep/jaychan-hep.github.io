@@ -7,7 +7,7 @@ subtitle: Machine Learning Postdoctoral Fellow at <a href='https://www.lbl.gov'>
 profile:
   align: right
   image: IMG_3262.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>50-5047</p>
     <p>1 Cyclotron Road</p>
