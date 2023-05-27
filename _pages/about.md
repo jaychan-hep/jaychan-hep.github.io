@@ -6,7 +6,7 @@ subtitle: Machine Learning Postdoctoral Research Fellow at <a href='https://www.
 
 profile:
   align: right
-  image: IMG_3262.jpg
+  image: 797c0644-e95f-4654-8d5e-d6b2ef85e6c9_Original.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>50-5047</p>
