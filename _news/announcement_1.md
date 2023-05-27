@@ -10,4 +10,4 @@ Today, I successfully defended my thesis with the title "Investigation of Higgs 
 
 I am very excited about my next journey after obtaining my PhD degree --- I will continue my contribution to the ML&AI developments for particle physics as a Machine Learning Postdoctoral Research Fellow at the Berkeley Lab!
 
-{% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/img/IMG_3139.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
