@@ -40,19 +40,19 @@
   type: time_table
   contents:
     - title: Machine Learning Postdoctoral Research Fellow
-      institution: Lawrence Berkeley National Lab
+      institution: Scientific Data Division, Lawrence Berkeley National Lab
       year: 2023-now
       description:
         - Description 1.
     - title: Visiting Research Fellow
-      institution: Lawrence Berkeley National Lab
+      institution: Machine Learning Group, Lawrence Berkeley National Lab
       year: 2022 - 2023
       description:
         - Developing novel ML applications for particle physics, including data unfolding and event simulation with generative models; contributed to 3 projects with 1 first author journal publication.
         - Translated abstract ideas into efficient and well-documented code using PyTorch, TensorFlow and Jupyter Notebook; successfully demonstrated proposed methods with practical examples.
 
    - title: Visiting Research Fellow
-      institution: Lawrence Berkeley National Lab
+      institution: ATLAS Group, Lawrence Berkeley National Lab
       year: 2021 - 2022
       description:
         - Designed experiments and troubleshooting to validate the ATLAS ITk pixel modules and readout chips.
