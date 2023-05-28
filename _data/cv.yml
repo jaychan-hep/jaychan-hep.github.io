@@ -13,7 +13,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Physics
       institution: University of Wisconsin-Madison, Madison, WI
       year: 2023
       description:
@@ -23,12 +23,18 @@
             - Machine Learning applications for Particle Physics
         - title: Thesis
           contents: Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: MS in Physics
+      institution: National Tsing Hua University, Hsinchu, Taiwan
+      year: 2015
       description:
-        - Description 1.
-        - Description 2.
+        - title: Research focus
+          contents:
+            - Particle physics phenomenology
+        - title: Thesis
+          contents: Dark Matter Induced Mikheyev-Smirnov-Wolfenstein (MSW) Effects in the Sun and in Core-Collapse Supernovae
+    - title: BS in Physics
+      institution: National Tsing Hua University, Hsinchu, Taiwan
+      year: 2013
 
 - title: Experience
   type: time_table
