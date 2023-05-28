@@ -17,13 +17,12 @@
       institution: University of Wisconsin-Madison, Madison, WI
       year: 2023
       description:
-        - Research focused on Experimental High Energy Physics and Machine Learning applications for Particle Physics
-        - Description 2.
         - title: Research focus
           contents:
             - Experimental High Energy Physics (ATLAS experiment)
             - Machine Learning applications for Particle Physics
-        - "Thesis title: \"Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding\""
+        - title: Thesis
+          contents: Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
