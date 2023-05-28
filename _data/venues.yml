@@ -2,7 +2,7 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
-"PRD":
+"PhysRevD":
   url: https://journals.aps.org/prd/
   color: "#2980B9"
 
@@ -13,7 +13,7 @@
   url: https://www.nature.com
   color: "#212F3D"
 
-"PLB":
+"PhysLettB":
   url: https://www.sciencedirect.com/journal/physics-letters-b
   color: "#E74C3C"
 
