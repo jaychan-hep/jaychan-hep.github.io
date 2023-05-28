@@ -4,9 +4,9 @@
     - name: Full Name
       value: Chen-Hsun (Jay) Chan
     - name: Email
-      value: jaychan@lbl.gov
+      value: <a href='mailto:jaychan@lbl.gov'>jaychan@lbl.gov<\a>
     - name: Website
-      value: https://jaychan-hep.github.io
+      value: <a href='https://jaychan-hep.github.io'>https://jaychan-hep.github.io<\a>
     - name: Languages
       value: English, Chinese, Taiwanese
 
@@ -39,8 +39,8 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
+    - title: Machine Learning Postdoctoral Research Fellow
+      institution: Lawrence Berkeley National Lab
       year: 1933 - 1955
       description:
         - Description 1.
