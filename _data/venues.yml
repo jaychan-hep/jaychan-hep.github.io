@@ -4,15 +4,19 @@
 
 "PRD":
   url" https://journals.aps.org/prd/
+  color: "#138D75"
 
 "PhysRev":
   url: https://journals.aps.org/
 
 "Nature":
   url: https://www.nature.com
+  color: "#212F3D"
 
 "PLB":
   url: https://www.sciencedirect.com/journal/physics-letters-b
+  color: "#E74C3C"
 
 "JHEP":
   url: https://www.springer.com/journal/13130?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAhnpwsjsEnciuFGaWUh9FlmN4YOiCxEPMRcDMJQ-79D_I5gVyrJRIsaAgWgEALw_wcB
+  color: "#7D6608"
