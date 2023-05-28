@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Postdoctoral Research Fellow at <a href='https://www.lbl.gov'>Lawrence Berkeley National Lab</a>.
+subtitle: machine Learning Postdoctoral Research Fellow at <a href='https://www.lbl.gov'>Lawrence Berkeley National Lab</a>.
 
 profile:
   align: right
