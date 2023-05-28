@@ -2,8 +2,17 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
+"PRD":
+  url" https://journals.aps.org/prd/
+
 "PhysRev":
   url: https://journals.aps.org/
 
 "Nature":
   url: https://www.nature.com
+
+"PLB":
+  url: https://www.sciencedirect.com/journal/physics-letters-b
+
+"JHEP":
+  url: https://www.springer.com/journal/13130?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAhnpwsjsEnciuFGaWUh9FlmN4YOiCxEPMRcDMJQ-79D_I5gVyrJRIsaAgWgEALw_wcB
