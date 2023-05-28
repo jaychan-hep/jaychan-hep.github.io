@@ -2,25 +2,28 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Chen-Hsun (Jay) Chan
+    - name: Email
+      value: jaychan@lbl.gov
+    - name: Website
+      value: https://jaychan-hep.github.io
     - name: Languages
-      value: English, German
+      value: English, Chinese, Taiwanese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Wisconsin-Madison, Madison, WI
+      year: 2023
       description:
-        - Description 1.
+        - Research focused on Experimental High Energy Physics and Machine Learning applications for Particle Physics
         - Description 2.
-        - title: Description 3.
+        - title: Research focus
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Experimental High Energy Physics (ATLAS experiment)
+            - Machine Learning applications for Particle Physics
+        - "Thesis title: \"Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding\""
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
