@@ -31,11 +31,11 @@
           contents:
             - Particle physics phenomenology
         - title: Thesis
-          contents: Dark Matter Induced Mikheyev-Smirnov-Wolfenstein (MSW) Effects in the Sun and in Core-Collapse Supernovae
+          contents:
+            - Dark Matter Induced Mikheyev-Smirnov-Wolfenstein (MSW) Effects in the Sun and in Core-Collapse Supernovae
     - title: BS in Physics
       institution: National Tsing Hua University, Hsinchu, Taiwan
       year: 2013
-      description:
 
 - title: Experience
   type: time_table
