@@ -23,11 +23,8 @@
       institution: National Tsing Hua University, Hsinchu, Taiwan
       year: 2015
       description:
-        - title: Research focus
-          contents:
-            - Particle physics phenomenology
-        - title: Thesis
-          contents: Dark Matter Induced Mikheyev-Smirnov-Wolfenstein (MSW) Effects in the Sun and in Core-Collapse Supernovae
+        - "Dissertation: \"Dark Matter Induced Mikheyev-Smirnov-Wolfenstein (MSW) Effects in the Sun and in Core-Collapse Supernovae\""
+        - "Advisor: Prof. We-Fu Chang"
     - title: BS in Physics
       institution: National Tsing Hua University, Hsinchu, Taiwan
       year: 2013
@@ -46,8 +43,9 @@
       institution: Machine Learning Group, Lawrence Berkeley National Lab
       year: 2021 - 2023
       description:
-        - Developing novel ML applications for particle physics, including data unfolding and event simulation with generative models; contributed to 3 projects with 1 first author journal publication.
+        - Developing novel ML applications for particle physics, including data unfolding and event simulation with generative models.
         - Translated abstract ideas into efficient and well-documented code using PyTorch, TensorFlow and Jupyter Notebook; successfully demonstrated proposed methods with practical examples.
+        - Contributed to 3 projects; resulted in 2 first author journal publications.
 
     - title: Visiting Research Fellow
       institution: ATLAS Group, Lawrence Berkeley National Lab
