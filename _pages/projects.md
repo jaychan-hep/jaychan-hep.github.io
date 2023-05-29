@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
-display_categories: [Machine Learning Applications for High Energy Physics (ML4HEP), ATLAS Experiment]
+display_categories: [Machine Learning for High Energy Physics, ATLAS Experiment]
 horizontal: false
 ---
 
