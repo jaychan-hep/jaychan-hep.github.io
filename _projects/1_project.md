@@ -1,24 +1,15 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Exa.TrkX
+description: GNN-based pipeline for particle tracking
+img: assets/img/trackml_display.png
 importance: 1
-category: work
+category: Machine Learning for High Energy Physics
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As particle accelerators become more powerful, detectors become more complex with increasingly dense measurements: O(10M) particles/second, O(100M) measurements/second. Traditional algorithms generate all possible trajectories, which result in a combinatorial explosion.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+With the DOE Exa.TrkX project, we pioneer the application of Geometric Deep Learning methods, specifically graph neural networks, to capture and regularize relationships between measurements. The optimized pipeline runs end-to-end on the NVIDIA V100 GPU with a 20X speed-up wrto using a 48-core Xeon 8268s Cascade Lake CPU.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
