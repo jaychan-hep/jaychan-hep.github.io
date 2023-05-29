@@ -51,9 +51,9 @@
       institution: ATLAS Group, Lawrence Berkeley National Lab
       year: 2021 - 2022
       description:
-        - Designed experiments and troubleshooting to validate the ATLAS ITk pixel modules and readout chips.
-        - Performed extensive electrical tests on pre-production (ITkPixV1.1) modules and chips with promising results, leading to submissions of module pre-production and chip production.
-        - Developed three robust 0-1 software tools using Python and C++ to automate the pixel module QC test procedure (interacting with hardware instruments, YARR and production database); successfully implemented and in use across several leading institutions, including ANL, LBNL, and SLAC.
+        - Designed experiments and conducted electrical tests on the ATLAS ITk pixel readout chips (for future upgrade).
+        - Delivered promising testing results, leading to submissions of module pre-production and chip production.
+        - Developed three robust 0-1 software tools using Python and C++ to automate the pixel module test procedure; successfully implemented and in use across community.
 
     - title: PhD researcher
       institution: CERN, Geneva, Switzerland
