@@ -104,17 +104,30 @@
       items:
         - Honor Roll of CoS Chen-Wen Elite Scholarship
 
-- title: Academic Interests
-  type: nested_list
+- title: Outreach
+  type: time_table
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Shared experience of studying abroad on social media (\href{https://www.instagram.com/reel/Co3bwyuIkRW/?igshid=YmMyMTA2M2Y=}{Facebook}, \href{https://fb.watch/iQ8jVu3WKf/?mibextid=cr9u03}{Instagram})
+      institution: American Institute in Taiwan
+      year: 2023
+    - title: Member of Lambda Alliance ERG
+      institution: LBNL 
+      year: 2022-Now
+      description:
+        - Participated in monthly ERG meeting.
+        - Participated in the 2022 San Francisco Pride Parade.
+    - title: Introduced High Energy Particle Physics to the Wisconsin Taiwanese Student Association, "The smallest particle created by the largest experiment"
+      institution: UW-Madison
+      year: 2020
+    - title: Presented a talk on High Energy Physics to high school students, "Are we in danger with the black holes created by LHC?"
+      institution: The Affiliated Senior High School of National Taiwan Normal University, Taipei, Taiwan
+      year: 2019
+    - title: Member of CERN LGBT Club
+      institution: CERN
+      year: 2018-Now
+      description:
+        - Organized the 2019 Geneva Pride activities.
+        - Organized the 2018 LGBTSTEM Day.
 
 - title: Other Interests
   type: list
