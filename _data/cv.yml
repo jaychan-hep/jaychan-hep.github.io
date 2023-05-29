@@ -6,7 +6,7 @@
     - name: Email
       value: <a href='mailto:jaychan@lbl.gov'>jaychan@lbl.gov</a>
     - name: Website
-      value: <a href='https://jaychan-hep.github.io'>https://jaychan-hep.github.io</a>
+      value: <a href='https://jaychan-hep.github.io'>jaychan-hep.github.io</a>
     - name: Languages
       value: English, Chinese, Taiwanese
 
