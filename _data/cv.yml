@@ -73,12 +73,12 @@
         - Estimated Dark Matter distribution numerically in astronomical objects (Sun, supernovae and the Galaxy) and calculated impacts of Dark Matter on neutrino oscillations with the assumption of Dark Matter-neutrino interactions; set 2 times stronger constraint on Dark Matter-neutrino coupling strength.
         - Studied 214 p-wave superconductor with the molecular beam epitaxy System (MBE).
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
