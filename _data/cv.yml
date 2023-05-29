@@ -17,8 +17,8 @@
       institution: University of Wisconsin-Madison, Madison, WI
       year: 2023
       description:
-        - Dissertation: "Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding"
-        - Advisor: Prof. Sau Lan Wu
+        - "Dissertation: \"Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding\""
+        - "Advisor: Prof. Sau Lan Wu"
     - title: MS in Physics
       institution: National Tsing Hua University, Hsinchu, Taiwan
       year: 2015
@@ -39,7 +39,8 @@
       institution: Lawrence Berkeley National Lab
       year: 2023-now
       description:
-        - Description 1.
+        - Developing a deep learning pipeline (using Graph Neural Network) to measure particle trajectories in High-Energy Physics (HEP) detectors.
+        - Developing a generative model of hadronic interactions and tune it to Geant 4 and experimental data.
 
     - title: Visiting Research Fellow
       institution: Lawrence Berkeley National Lab
