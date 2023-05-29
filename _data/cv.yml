@@ -66,7 +66,7 @@
         - Applied anomaly detection using unsupervised machine learning methods (e.g. VAE) and demonstrated the methods by re-discovering the Higgs boson from the ATLAS data at over 10 standard deviations.
 
     - title: Research Assistant
-      institution: High Energy Phenomenology Group, National Tsing Hua University
+      institution: National Tsing Hua University
       year: 2015 - 2017
       description:
         - Created a Machine Learning method to improve discrimination of Higgs boson production modes.
