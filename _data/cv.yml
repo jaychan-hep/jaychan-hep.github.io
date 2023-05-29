@@ -33,7 +33,7 @@
   type: time_table
   contents:
     - title: Machine Learning Postdoctoral Research Fellow
-      institution: Lawrence Berkeley National Lab
+      institution: Scientific Data Division, Lawrence Berkeley National Lab
       year: 2023-now
       description:
         - Developing a deep learning pipeline (using Graph Neural Network) to measure particle trajectories in High-Energy Physics detectors.
