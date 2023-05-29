@@ -104,10 +104,17 @@
       items:
         - Honor Roll of CoS Chen-Wen Elite Scholarship
 
+- title: Skills
+  type: list
+  contents:
+    - <u>Programming:</u> Python, C/C++, Git, LaTeX, Bash, Mathematica, MySQL, C#, HTML
+    - <u>Machine Learning:</u> BDT, Neural Network, RNN, Deep Sets, Attention, Transformer, GNN, Autoencoder, Variational Autoencoder, GAN, Normalizing Flow, XGBoost, Scikit-Learn, TensorFlow/Keras, PyTorch
+    - <u>Other:</u> GitLab, GitHub, Docker, Electronics
+
 - title: Outreach
   type: time_table
   contents:
-    - title: Shared experience of studying abroad on social media (\href{https://www.instagram.com/reel/Co3bwyuIkRW/?igshid=YmMyMTA2M2Y=}{Facebook}, \href{https://fb.watch/iQ8jVu3WKf/?mibextid=cr9u03}{Instagram})
+    - title: Shared experience of studying abroad on social media (<a href=https://www.instagram.com/reel/Co3bwyuIkRW/?igshid=YmMyMTA2M2Y=>Facebook</a>, <a href=https://fb.watch/iQ8jVu3WKf/?mibextid=cr9u03>Instagram</a>)
       institution: American Institute in Taiwan
       year: 2023
     - title: Member of Lambda Alliance ERG
@@ -128,8 +135,3 @@
       description:
         - Organized the 2019 Geneva Pride activities.
         - Organized the 2018 LGBTSTEM Day.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
