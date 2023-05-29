@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: HadML
+description: Simulating hadronization with ML-based generative models
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Machine Learning for High Energy Physics
 ---
 
 Every project has a beautiful feature showcase page.
