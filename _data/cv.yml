@@ -38,6 +38,7 @@
       description:
         - Developing a deep learning pipeline (using Graph Neural Network) to measure particle trajectories in High-Energy Physics detectors.
         - Developing a generative model of hadronic interactions and tune it to Geant 4 and experimental data.
+        - Developing ML-based unfolding algorithms for particle physics.
 
     - title: Visiting Research Fellow
       institution: Machine Learning Group, Lawrence Berkeley National Lab
