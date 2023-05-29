@@ -83,13 +83,26 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Research Fellowship, Machine Learning for HEP, LBNL
+    - year: 2021
       items: 
-        - Max Planck Medal
+        - Research Fellowship, ITk Pixel Upgrade, LBNL
+        - US-ATLAS Center (ATC) Funding Award, ITK Pixel Upgrade, US-ATLAS
+        - Allan M. and Arline B. Paul Physics Award, UW-Madison
+    - year: 2019
+      items:
+        - Grant for the fifth Summer School on ML in HEP with Grant, DESY, Hambrug, Germany
+    - year: 2016
+      items:
+        - First prize for the project competition at the 44th SLAC Summer Institute
+    - year: 2013
+      items:
+        - Honor Roll of CoS Elite Scholarship
+    - year: 2009
+      items:
+        - Honor Roll of CoS Chen-Wen Elite Scholarship
 
 - title: Academic Interests
   type: nested_list
