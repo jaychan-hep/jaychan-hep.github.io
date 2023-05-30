@@ -7,7 +7,7 @@ importance: 2
 category: Machine Learning for High Energy Physics
 ---
 
-Hadronization is a critical step in the simulation of high-energy particle and nuclear physics experiments. As there is no first principles understanding of this process, physically-inspired hadronization models have a large number of parameters that are fit to data. Deep generative models are a natural replacement for classical techniques, since they are more flexible and may be able to improve the overall precision. We are developing deeo generative models, or GAN, to simulate particle hadronization. The ultimate goal is to integrate machine learning-based hadronization models into parton shower Monte Carlo programs.
+Hadronization is a critical step in the simulation of high-energy particle and nuclear physics experiments. As there is no first principles understanding of this process, physically-inspired hadronization models have a large number of parameters that are fit to data. Deep generative models are a natural replacement for classical techniques, since they are more flexible and may be able to improve the overall precision. We are developing deep generative models, or GAN, to simulate particle hadronization. The ultimate goal is to integrate machine learning-based hadronization models into parton shower Monte Carlo programs.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
