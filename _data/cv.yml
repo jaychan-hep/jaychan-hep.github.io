@@ -4,7 +4,7 @@
     - name: Full Name
       value: Chen-Hsun (Jay) Chan
     - name: Email
-      value: <a href='mailto:jaychan@lbl.gov'>jaychan@lbl.gov</a>
+      value: <a href='mailto:jaycha610@gmail.com'>jaycha610@gmail.com</a>
     - name: Website
       value: <a href='https://jaychan-hep.github.io'>jaychan-hep.github.io</a>
     - name: Languages
@@ -114,6 +114,9 @@
 - title: Outreach
   type: time_table
   contents:
+    - title: Gave a hands-on tutorial of deep learning in US-ATLAS Machine Learning Training Program
+      institution: LBNL
+      year: 2023
     - title: Shared experience of studying abroad on social media (<a href=https://www.instagram.com/reel/Co3bwyuIkRW/?igshid=YmMyMTA2M2Y=>Instagram</a>, <a href=https://fb.watch/iQ8jVu3WKf/?mibextid=cr9u03>Facebook</a>)
       institution: American Institute in Taiwan
       year: 2023
