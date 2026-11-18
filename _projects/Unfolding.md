@@ -1,24 +1,18 @@
 ---
 layout: page
 title: Unfolding
-description: Correct for detector effects with ML
+description: Machine learning methods for correcting detector effects.
 img: assets/img/unfolding_illustration.png
 importance: 3
 category: Machine Learning for High Energy Physics
 ---
 
-Unfolding is a key procedure in particle physics. It corrects data for detector effects. Traditionally, we "unfold" data by discretizing the targeted phse space into a finite number of bins in both the truth spectrum and the measured spectrum. This comes with the limitation that the binning needs to be determined beforehand. This is not ideal because the optimal binning usually depends on the downstream inference tasks, while we will only be able to optimize the binning for one specific task, which means that the interpretation will be inflexible and difficult to be reused in the future.
+Unfolding estimates particle-level distributions from measurements distorted by a detector. I develop machine learning methods to correct those distortions and account for uncertainties in the detector response.
 
-We are now developing modern unfolding methods that utilize Machine Learning techniques. These methods, including density-based methods (e.g. GAN, Normalizing Flows, Variational Auto-Encoder, etc.) and classifier-based methods (e.g. OmniFold), allow for unbinned unfolding and at the same are able to perform unfolding at high dimension! In a recent paper, we also proposed a method "Unbinned Profiled Unfolding", which allows for unbinned unfolding and simultaneously constraining nuisance parameters.
+[**Unbinned Profiled Unfolding**](https://doi.org/10.1103/PhysRevD.108.016002) fits detector nuisance parameters while unfolding a particle-level spectrum. In a simulated Higgs-to-diphoton benchmark, the method recovered the Higgs transverse momentum spectrum and fitted a photon resolution scale of 1.19 ± 0.007 for an injected value of 1.20.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/UPU.png" title="example image" class="img-fluid rounded z-depth-1" bkg-white=true zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/UPU_Higgs_w0_theta_pth.pdf" title="example image" class="img-fluid rounded z-depth-1" bkg-white=true zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    (Left) The procedure of the Unbinned Profiled Unfolding. (Right) The result of the Unbinned Profiled Unfolding with an example of Higgs boson differential cross-section measurements (targetting the spectrum of the Higgs boson transverse momentum).
-</div>
+[**Neural Posterior Unfolding**](https://doi.org/10.1088/1748-0221/21/03/P03004) uses normalizing flows to estimate a full posterior distribution. We evaluated the method on synthetic examples and simulated collider jet-substructure data.
+
+{% include figure.html path="assets/img/UPU.png" alt="Diagram of the Unbinned Profiled Unfolding method" class="img-fluid rounded" bkg-white=true caption="Unbinned Profiled Unfolding jointly estimates the spectrum and detector nuisance parameters." %}
+
+[Higgs transverse momentum benchmark (PDF)]({{ '/assets/img/UPU_Higgs_w0_theta_pth.pdf' | relative_url }})

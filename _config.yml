@@ -8,7 +8,7 @@ middle_name:
 last_name: Chan
 email: jaychan610@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Jay Chan is a machine learning researcher at Berkeley Lab working on graph neural networks, GPU inference, reinforcement learning, and particle physics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -157,9 +157,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -209,6 +207,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _posts/2020-09-28-twitter.md
+  - _posts/2021-07-04-diagrams.md
 keep_files:
   - CNAME
   - .nojekyll

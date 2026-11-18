@@ -2,11 +2,16 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching and mentoring in physics and machine learning.
 nav: false
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I have taught undergraduate physics at the University of Wisconsin–Madison and led hands-on machine learning tutorials for particle physics researchers.
 
-Organize your courses by years, topics, or universities, however you like!
+- **Machine Learning for Fundamental Physics School** · Deep learning tutorial, August 2024
+- **US-ATLAS Bootcamp at Fermilab** · Deep learning tutorial, July 2024
+- **US-ATLAS Machine Learning Training Program at Berkeley Lab** · Deep learning tutorial, July 2023
+- **University of Wisconsin–Madison** · Teaching assistant for undergraduate physics, 2017–2018
+
+I have also mentored eight students on machine learning research projects that contributed to five conference talks and two posters.

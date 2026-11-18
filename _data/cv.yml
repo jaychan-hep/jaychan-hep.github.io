@@ -33,67 +33,73 @@
   type: time_table
   contents:
     - title: Machine Learning Postdoctoral Research Fellow
-      institution: Scientific Data Division, Lawrence Berkeley National Lab
-      year: 2023-now
+      institution: Scientific Data Division, Lawrence Berkeley National Laboratory
+      year: June 2023–present
       description:
-        - Developing a deep learning pipeline (using Graph Neural Network) to measure particle trajectories in High-Energy Physics detectors.
-        - Developing a generative model of hadronic interactions and tune it to Geant 4 and experimental data.
-        - Developing ML-based unfolding algorithms for particle physics.
+        - Develop reinforcement learning for on-chip packet routing in NIFTY using proximal policy optimization (PPO), a convolutional critic, and a multilayer perceptron actor shared across nodes.
+        - Co-developed an AI agent system for high-energy physics data analysis, including analyses for ATLAS.
+        - Develop ATLAS GNN4ITk, a graph neural network pipeline for particle track reconstruction, and contribute to its ACORN research framework.
+        - Serve GNN4ITk through NVIDIA Triton Inference Server with Athena as the client. Benchmark inference latency with TensorRT, ONNX Runtime, and different numerical precisions, and measure throughput as concurrency, model instances, and GPU counts vary.
+        - Developed D-WALK and Junction Resolution for graph segmentation and presented them at CHEP 2026. On ColliderML at mean pileup 200, D-WALK cut mean CPU segmentation time from 118 to 23 ms while retaining 98.6% track-finding efficiency.
+        - Introduced Double Metric Learning for directed graph construction and proposed and developed EggNet, presented at the ICML 2024 AI for Science Workshop.
+        - Co-developed a multitask graph neural network with a UC Berkeley URAP student to classify edges and predict track parameters. Continue to develop the architecture independently.
 
-    - title: Visiting Research Fellow
-      institution: Machine Learning Group, Lawrence Berkeley National Lab
-      year: 2022 - 2023
+    - title: Visiting Researcher
+      institution: Machine Learning Group, Lawrence Berkeley National Laboratory
+      year: Sept 2022–May 2023
       description:
-        - Developed novel ML applications for particle physics, including data unfolding and event simulation with generative models.
-        - Translated abstract ideas into efficient and well-documented code using PyTorch, TensorFlow and Jupyter Notebook; successfully demonstrated proposed methods with practical examples.
-        - Contributed to 3 projects; resulted in 2 first author journal publications (1 ongoing).
+        - Developed Unbinned Profiled Unfolding. In a simulated Higgs-to-diphoton benchmark, it recovered the particle-level transverse momentum spectrum and fitted a photon resolution scale of 1.19 ± 0.007 for an injected value of 1.20.
+        - Fitted a generative hadronization model to two Herwig configurations using final-state hadrons as fit targets and extended HadML to generate both kinematics and particle identities.
 
-    - title: Visiting Research Fellow
-      institution: ATLAS Group, Lawrence Berkeley National Lab
-      year: 2021 - 2022
+    - title: Visiting Researcher
+      institution: ATLAS Group, Lawrence Berkeley National Laboratory
+      year: Sept 2021–Aug 2022
       description:
-        - Designed experiments and conducted electrical tests on the ATLAS ITk pixel readout chips (for future upgrade).
-        - Delivered promising testing results, leading to submissions of module pre-production and chip production.
-        - Developed three robust 0-1 software tools using Python and C++ to automate the pixel module test procedure; successfully implemented and in use across community.
+        - Designed and ran electrical tests to validate ATLAS ITk pixel modules and readout chips.
+        - Built three Python and C++ tools to automate pixel module quality control. Argonne, Berkeley Lab, and SLAC adopted the tools.
 
-    - title: PhD researcher
+    - title: PhD Researcher
       institution: CERN, Geneva, Switzerland
-      year: 2018 - 2021
+      year: May 2018–Aug 2021
       description:
-        - Led 4 physics analyses of the ATLAS experiment focused on Higgs physics and Dark Matter; presented 5 approval talks, resulting in 4 journal papers and 4 ATLAS conference notes. 
-        - Developed ML-based event categorization and enhanced signal sensitivity by over 200%.
-        - Developed statistical framework and performed statistical fitting; delivered statistical results as well as visualization plots.
-        - Applied anomaly detection using unsupervised machine learning methods (e.g. VAE) and demonstrated the methods by re-discovering the Higgs boson from the ATLAS data at over 10 standard deviations.
+        - Led four ATLAS analyses on Higgs boson physics and dark matter, producing four journal articles and four ATLAS conference notes. Delivered five analysis approval talks.
+        - Improved signal sensitivity by over 200% with ML event categorization and recovered a Higgs boson signal using unsupervised anomaly detection at over 10 standard deviations.
 
     - title: Research Assistant
       institution: National Tsing Hua University
-      year: 2015 - 2017
+      year: July 2013–June 2017
       description:
-        - Created a Machine Learning method to improve discrimination of Higgs boson production modes.
-        - Estimated Dark Matter distribution numerically in astronomical objects (Sun, supernovae and the Galaxy) and calculated impacts of Dark Matter on neutrino oscillations assuming Dark Matter-neutrino interactions; set 2 times stronger constraint on Dark Matter-neutrino coupling strength.
-        - Studied 214 p-wave superconductor with the molecular beam epitaxy System (MBE).
+        - Developed a machine learning method to distinguish Higgs boson production modes.
+        - Modeled dark matter distributions and their effects on neutrino oscillations, deriving a bound on dark matter–neutrino coupling twice as stringent as the previous bound.
+        - Used molecular beam epitaxy to study a 214 p-wave superconductor.
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+- title: Leadership and Mentoring
+  type: time_table
+  contents:
+    - title: Research Mentor
+      year: 2023–present
+      description:
+        - Mentored eight students in ML for particle tracking. The student projects contributed to five conference talks and two posters.
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - First prize for Strong Lensing Domain Adaptation, IAFAI Summer School Hackathon
+        - Breakthrough Prize in Fundamental Physics (ATLAS Collaboration)
     - year: 2022
-      items: 
-        - Research Fellowship, Machine Learning for HEP, LBNL
+      items:
+        - Two Sigma PhD Fellowship nomination by the UW–Madison Physics Department Chair
+        - Research Fellowship, Machine Learning for HEP, Berkeley Lab
     - year: 2021
-      items: 
-        - Research Fellowship, ITk Pixel Upgrade, LBNL
-        - US-ATLAS Center (ATC) Funding Award, ITK Pixel Upgrade, US-ATLAS
-        - Allan M. and Arline B. Paul Physics Award, UW-Madison
+      items:
+        - Research Fellowship, ITk Pixel Upgrade, Berkeley Lab
+        - US-ATLAS Center Funding Award, ITk Pixel Upgrade
+        - Allan M. and Arline B. Paul Physics Award, UW–Madison
     - year: 2019
       items:
-        - Grant for the fifth Summer School on ML in HEP with Grant, DESY, Hambrug, Germany
+        - Grant to attend the fifth Summer School on ML in HEP, DESY, Hamburg
     - year: 2016
       items:
         - First prize for the project competition at the 44th SLAC Summer Institute
@@ -104,12 +110,15 @@
       items:
         - Honor Roll of CoS Chen-Wen Elite Scholarship
 
-- title: Skills
+- title: Technical Skills
   type: list
   contents:
-    - <u>Programming:</u> Python, C/C++, Git, LaTeX, Bash, Mathematica, MySQL, C#, HTML
-    - <u>Machine Learning:</u> BDT, Neural Network, RNN, Deep Sets, Attention, Transformer, GNN, Autoencoder, Variational Autoencoder, GAN, Normalizing Flow, XGBoost, Scikit-Learn, TensorFlow/Keras, PyTorch
-    - <u>Other:</u> GitLab, GitHub, Docker, Electronics
+    - "<strong>Programming and data</strong> · Python, C/C++, CUDA, Bash, MySQL, C#, Mathematica"
+    - "<strong>ML methods</strong> · Graph neural networks, reinforcement learning (PPO), transformers, generative models, normalizing flows"
+    - "<strong>ML frameworks</strong> · PyTorch, PyTorch Geometric, TensorFlow/Keras, scikit-learn, XGBoost"
+    - "<strong>Inference and profiling</strong> · NVIDIA Triton Inference Server, TensorRT, ONNX Runtime, NVIDIA Nsight Systems (nsys)"
+    - "<strong>Development tools</strong> · Git, GitHub, GitLab, Jupyter, Docker, Podman, Podman-HPC, LaTeX"
+    - "<strong>AI coding agents</strong> · OpenAI Codex, Claude Code"
 
 - title: Outreach
   type: time_table

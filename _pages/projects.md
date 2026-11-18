@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of my research projects.
 nav: true
 nav_order: 2
-display_categories: [Machine Learning for High Energy Physics, ATLAS Experiment]
+display_categories: [Machine Learning for High Energy Physics, Machine Learning Systems, ATLAS Experiment]
 horizontal: false
 ---
 

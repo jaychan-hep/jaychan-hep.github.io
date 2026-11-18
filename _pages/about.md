@@ -2,11 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Postdoctoral Research Fellow at <a href='https://www.lbl.gov'>Lawrence Berkeley National Lab</a>.
+subtitle: Machine Learning Postdoctoral Research Fellow at <a href='https://www.lbl.gov'>Lawrence Berkeley National Laboratory</a>
 
 profile:
   align: right
   image: output-onlinejpgtools.jpg
+  alt: Portrait of Jay Chan
   image_circular: false # crops the image to make it circular
   address: >
     <p>50-5047</p>
@@ -14,15 +15,17 @@ profile:
     <p>Berkeley, CA 94720</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a physicist and Machine Learning Postdoctoral Research Fellow at Lawrence Berkeley National Lab (LBNL), specializing in developing ML&AI applications and tools for particle physics.
+I’m a physicist and machine learning researcher in the Scientific Data Division at Berkeley Lab. I develop models and inference systems for scientific workloads, with a focus on graph neural networks, GPU performance, and reinforcement learning.
 
-I recently completed my PhD in Physics at the University of Wisconsin-Madison in 2023. During my doctoral studies, I focused on experimental high energy physics and contributed to the ATLAS experiment at CERN. My thesis, titled "Investigation of Higgs Boson Decaying to Di-muon, Dark Matter Produced in Association with a Higgs Boson Decaying to b-quarks and Unbinned Profiled Unfolding," explored fascinating aspects of particle physics.
+For ATLAS, I develop GNN4ITk to reconstruct charged-particle tracks from detector hits. I introduced [Double Metric Learning](https://arxiv.org/abs/2605.14131) for sparse tracking graphs. I proposed and developed [EggNet](https://arxiv.org/abs/2407.13925), an evolving graph attention network I presented at the ICML 2024 AI for Science Workshop. I presented [D-WALK and Junction Resolution](https://indico.cern.ch/event/1471803/contributions/6967258/) at CHEP 2026. I’m now working on Tracking-as-a-Service to benchmark and improve GPU inference for tracking.
 
-Outside of academia, I enjoy hiking, skiing, and playing the piano and drums.
+I also develop reinforcement learning for on-chip packet routing in NIFTY and co-developed an AI agent system for high-energy physics analysis. My earlier work includes detector unfolding, generative hadronization, and ATLAS Higgs boson and dark matter analyses. I earned my PhD in Physics from the University of Wisconsin–Madison in 2023.
 
-Explore my website to learn more about my research and stay updated on my latest endeavors in the exciting intersection of physics and machine learning.
+[Research projects]({{ '/projects/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV and résumé]({{ '/cv/' | relative_url }})
+
+Outside the lab, I enjoy hiking, skiing, and playing piano and drums.
