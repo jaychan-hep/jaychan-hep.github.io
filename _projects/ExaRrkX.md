@@ -13,7 +13,7 @@ Particle tracking reconstructs trajectories from detector hits. The number of po
 
 - [**Double Metric Learning**](https://arxiv.org/abs/2605.14131) learns an asymmetric distance to connect successive detector hits. In simulated ATLAS ITk top-quark pair events at mean pileup 200, its undirected graphs averaged 6.59 million edges versus 6.97 million for Simple Metric Learning, with graph construction efficiencies of 99.72% and 99.81%, respectively.
 - [**D-WALK and Junction Resolution**](https://indico.cern.ch/event/1471803/contributions/6967258/) address track segmentation. On ColliderML at mean pileup 200, D-WALK cut mean CPU segmentation time from 118 to 23 ms while retaining 98.6% track-finding efficiency. Junction Resolution improved track-finding efficiency from 95.1% to 98.3% versus Junction Removal, with mean CPU segmentation times of 16 and 15 ms, respectively.
-- [**EggNet**](https://arxiv.org/abs/2407.13925) is an evolving graph attention network I proposed and developed. I presented it at the ICML 2024 AI for Science Workshop. The paper lists authors alphabetically by surname, independent of individual contributions. In the [CHEP performance study](https://doi.org/10.1051/epjconf/202533701121), segmented-graph training on TrackML used about one-tenth the training time and GPU memory of full-graph training.
+- [**EggNet**](https://arxiv.org/abs/2407.13925) is an evolving graph attention network I proposed and developed. I presented it at the ICML 2024 AI for Science Workshop. In the [CHEP performance study](https://doi.org/10.1051/epjconf/202533701121), segmented-graph training on TrackML used about one-tenth the training time and GPU memory of full-graph training.
 
 ## Tracking-as-a-Service
 

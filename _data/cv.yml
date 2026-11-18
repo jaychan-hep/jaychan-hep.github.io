@@ -56,7 +56,7 @@
       year: Sept 2021–Aug 2022
       description:
         - Designed and ran electrical tests to validate ATLAS ITk pixel modules and readout chips.
-        - Built three Python and C++ tools to automate pixel module quality control. Argonne, Berkeley Lab, and SLAC adopted the tools.
+        - Built a Python and C++ tool from scratch to automate pixel module quality control. Argonne, Berkeley Lab, and SLAC adopted the tool.
 
     - title: PhD Researcher
       institution: CERN, Geneva, Switzerland
