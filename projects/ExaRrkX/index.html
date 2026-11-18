@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Exa.TrkX | Chen-Hsun (Jay)  Chan</title>
+    <title>GNN4ITk and Exa.TrkX | Chen-Hsun (Jay)  Chan</title>
     <meta name="author" content="Chen-Hsun (Jay)  Chan">
-    <meta name="description" content="GNN-based pipeline for particle tracking">
+    <meta name="description" content="Graph neural networks and GPU inference for particle track reconstruction.">
     <meta name="keywords" content="high-energy-physics, particle-physics, machine-learning, data-science">
 
 
@@ -116,77 +116,29 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Exa.TrkX</h1>
-            <p class="post-description">GNN-based pipeline for particle tracking</p>
+            <h1 class="post-title">GNN4ITk and Exa.TrkX</h1>
+            <p class="post-description">Graph neural networks and GPU inference for particle track reconstruction.</p>
           </header>
 
           <article>
-            <p>As particle accelerators become more powerful, detectors become more complex with increasingly dense measurements: O(10M) particles/second, O(100M) measurements/second. Traditional algorithms generate all possible trajectories, which result in a combinatorial explosion.</p>
+            <p>Particle tracking reconstructs trajectories from detector hits. The number of possible hit combinations grows quickly in dense collision events. The Exa.TrkX project developed a graph-based approach that learns which hits belong together. I now develop ATLAS GNN4ITk and contribute to its ACORN research framework.</p>
 
-<p>With the DOE Exa.TrkX project, we pioneer the application of Geometric Deep Learning methods, specifically graph neural networks, to capture and regularize relationships between measurements. Unlike traditional algorithms, this pipeline scales linearly with data density which could increase the discovery capacity potential of future high energy physics experiments. The optimized pipeline runs end-to-end on the NVIDIA V100 GPU with a 20X speed-up wrto using a 48-core Xeon 8268s Cascade Lake CPU.</p>
+<h2 id="graph-construction-and-track-finding">Graph construction and track finding</h2>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<ul>
+  <li>
+<a href="https://arxiv.org/abs/2605.14131" rel="external nofollow noopener" target="_blank"><strong>Double Metric Learning</strong></a> learns an asymmetric distance to connect successive detector hits. In simulated ATLAS ITk top-quark pair events at mean pileup 200, its undirected graphs averaged 6.59 million edges versus 6.97 million for Simple Metric Learning, with graph construction efficiencies of 99.72% and 99.81%, respectively.</li>
+  <li>
+<a href="https://indico.cern.ch/event/1471803/contributions/6967258/" rel="external nofollow noopener" target="_blank"><strong>D-WALK and Junction Resolution</strong></a> address track segmentation. On ColliderML at mean pileup 200, D-WALK cut mean CPU segmentation time from 118 to 23 ms while retaining 98.6% track-finding efficiency. Junction Resolution improved track-finding efficiency from 95.1% to 98.3% versus Junction Removal, with mean CPU segmentation times of 16 and 15 ms, respectively.</li>
+  <li>
+<a href="https://arxiv.org/abs/2407.13925" rel="external nofollow noopener" target="_blank"><strong>EggNet</strong></a> is an evolving graph attention network I proposed and developed. I presented it at the ICML 2024 AI for Science Workshop. The paper lists authors alphabetically by surname, independent of individual contributions. In the <a href="https://doi.org/10.1051/epjconf/202533701121" rel="external nofollow noopener" target="_blank">CHEP performance study</a>, segmented-graph training on TrackML used about one-tenth the training time and GPU memory of full-graph training.</li>
+</ul>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/ATLAS_reco_WtPerEvent_NOfit_revised-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/ATLAS_reco_WtPerEvent_NOfit_revised-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/ATLAS_reco_WtPerEvent_NOfit_revised-1400.webp"></source>
-    
+<h2 id="tracking-as-a-service">Tracking-as-a-Service</h2>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/ATLAS_reco_WtPerEvent_NOfit_revised.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<p>I serve GNN4ITk through NVIDIA Triton Inference Server with Athena as the client. My work evaluates latency with TensorRT, ONNX Runtime, and different numerical precisions, and measures throughput as client process and thread counts, model instances, and GPUs vary.</p>
 
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/cpu_13nedges.pdf-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/cpu_13nedges.pdf-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/cpu_13nedges.pdf-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/cpu_13nedges.pdf" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/gpu_8khits.pdf-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/gpu_8khits.pdf-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/gpu_8khits.pdf-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/gpu_8khits.pdf" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-<div class="caption">
-    (Left) Reconstruction wall time per event as a function of the average number of interactions per bunch crossing ⟨μ⟩ with the default configurations of ATLAS Run 2 Inner Detector reconstruction. (Middle) Total inference time with Exa.TrkX as a function of number of space-points in each event for CPUs. (Right) Exa.TrkX inference time for GPUs.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<figure>
 
   <picture>
     
@@ -196,17 +148,11 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/pipeline.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/pipeline.png" class="img-fluid rounded" width="auto" height="auto" alt="Stages of the Exa.TrkX track formation pipeline" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-  </picture>
+  </picture><figcaption class="caption">The Exa.TrkX TrackML inference pipeline. Light red boxes mark trainable stages.</figcaption>
 
 </figure>
-
-    </div>
-</div>
-<div class="caption">
-    Stages of the TrackML track formation inference pipeline. Light red boxes are trainable stages.
-</div>
 
 
           </article>
@@ -219,7 +165,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Chen-Hsun (Jay)  Chan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2026 Chen-Hsun (Jay)  Chan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>

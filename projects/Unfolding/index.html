@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Unfolding | Chen-Hsun (Jay)  Chan</title>
     <meta name="author" content="Chen-Hsun (Jay)  Chan">
-    <meta name="description" content="Correct for detector effects with ML">
+    <meta name="description" content="Machine learning methods for correcting detector effects.">
     <meta name="keywords" content="high-energy-physics, particle-physics, machine-learning, data-science">
 
 
@@ -117,17 +117,17 @@
 
           <header class="post-header">
             <h1 class="post-title">Unfolding</h1>
-            <p class="post-description">Correct for detector effects with ML</p>
+            <p class="post-description">Machine learning methods for correcting detector effects.</p>
           </header>
 
           <article>
-            <p>Unfolding is a key procedure in particle physics. It corrects data for detector effects. Traditionally, we “unfold” data by discretizing the targeted phse space into a finite number of bins in both the truth spectrum and the measured spectrum. This comes with the limitation that the binning needs to be determined beforehand. This is not ideal because the optimal binning usually depends on the downstream inference tasks, while we will only be able to optimize the binning for one specific task, which means that the interpretation will be inflexible and difficult to be reused in the future.</p>
+            <p>Unfolding estimates particle-level distributions from measurements distorted by a detector. I develop machine learning methods to correct those distortions and account for uncertainties in the detector response.</p>
 
-<p>We are now developing modern unfolding methods that utilize Machine Learning techniques. These methods, including density-based methods (e.g. GAN, Normalizing Flows, Variational Auto-Encoder, etc.) and classifier-based methods (e.g. OmniFold), allow for unbinned unfolding and at the same are able to perform unfolding at high dimension! In a recent paper, we also proposed a method “Unbinned Profiled Unfolding”, which allows for unbinned unfolding and simultaneously constraining nuisance parameters.</p>
+<p><a href="https://doi.org/10.1103/PhysRevD.108.016002" rel="external nofollow noopener" target="_blank"><strong>Unbinned Profiled Unfolding</strong></a> fits detector nuisance parameters while unfolding a particle-level spectrum. In a simulated Higgs-to-diphoton benchmark, the method recovered the Higgs transverse momentum spectrum and fitted a photon resolution scale of 1.19 ± 0.007 for an injected value of 1.20.</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<p><a href="https://doi.org/10.1088/1748-0221/21/03/P03004" rel="external nofollow noopener" target="_blank"><strong>Neural Posterior Unfolding</strong></a> uses normalizing flows to estimate a full posterior distribution. We evaluated the method on synthetic examples and simulated collider jet-substructure data.</p>
+
+<figure>
 
   <picture>
     
@@ -137,35 +137,13 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/UPU.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/UPU.png" class="img-fluid rounded" width="auto" height="auto" alt="Diagram of the Unbinned Profiled Unfolding method" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/UPU_Higgs_w0_theta_pth.pdf-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/UPU_Higgs_w0_theta_pth.pdf-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/UPU_Higgs_w0_theta_pth.pdf-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/UPU_Higgs_w0_theta_pth.pdf" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
+  </picture><figcaption class="caption">Unbinned Profiled Unfolding jointly estimates the spectrum and detector nuisance parameters.</figcaption>
 
 </figure>
 
-    </div>
-</div>
-<div class="caption">
-    (Left) The procedure of the Unbinned Profiled Unfolding. (Right) The result of the Unbinned Profiled Unfolding with an example of Higgs boson differential cross-section measurements (targetting the spectrum of the Higgs boson transverse momentum).
-</div>
+<p><a href="/assets/img/UPU_Higgs_w0_theta_pth.pdf">Higgs transverse momentum benchmark (PDF)</a></p>
 
           </article>
 
@@ -177,7 +155,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Chen-Hsun (Jay)  Chan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2026 Chen-Hsun (Jay)  Chan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>

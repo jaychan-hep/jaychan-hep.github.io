@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>HadML | Chen-Hsun (Jay)  Chan</title>
     <meta name="author" content="Chen-Hsun (Jay)  Chan">
-    <meta name="description" content="Simulating hadronization with ML-based generative models">
+    <meta name="description" content="Deep generative models for hadronization in particle event simulation.">
     <meta name="keywords" content="high-energy-physics, particle-physics, machine-learning, data-science">
 
 
@@ -117,71 +117,33 @@
 
           <header class="post-header">
             <h1 class="post-title">HadML</h1>
-            <p class="post-description">Simulating hadronization with ML-based generative models</p>
+            <p class="post-description">Deep generative models for hadronization in particle event simulation.</p>
           </header>
 
           <article>
-            <p>Hadronization is a critical step in the simulation of high-energy particle and nuclear physics experiments. As there is no first principles understanding of this process, physically-inspired hadronization models have a large number of parameters that are fit to data. Deep generative models are a natural replacement for classical techniques, since they are more flexible and may be able to improve the overall precision. We are developing deep generative models, or GAN, to simulate particle hadronization. The ultimate goal is to integrate machine learning-based hadronization models into parton shower Monte Carlo programs.</p>
+            <p>Hadronization is the process by which quarks and gluons form the particles measured by detectors. I develop generative models that can be fitted to observed hadron distributions and evaluated against conventional event generators such as Herwig.</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<p>In <a href="https://doi.org/10.1007/JHEP09(2023)084" rel="external nofollow noopener" target="_blank">Fitting a deep generative hadronization model</a>, we fitted a generative adversarial network to two Herwig configurations using final-state hadrons as fit targets. An auxiliary neural classifier distinguished the configurations with an AUC of 0.77, compared with 0.57 for the best individual observable tested.</p>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/MLHadv2.pdf-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/MLHadv2.pdf-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/MLHadv2.pdf-1400.webp"></source>
-    
+<p>In <a href="https://doi.org/10.1103/hgbg-k7js" rel="external nofollow noopener" target="_blank">Integrating particle flavor into deep learning models for hadronization</a>, we extended HadML to generate both kinematics and particle identities for two-body cluster decays. The model reproduced Herwig’s shift toward strange hadrons when an incoming quark was strange.</p>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/MLHadv2.pdf" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/loss_vs_epochs.pdf-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/loss_vs_epochs.pdf-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/loss_vs_epochs.pdf-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/MLHadv2-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/MLHadv2-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/MLHadv2-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/loss_vs_epochs.pdf" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/MLHadv2.png" class="img-fluid rounded" width="auto" height="auto" alt="Diagram of the HadML generative adversarial model" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-  </picture>
-
-</figure>
-
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/theta_truthframe.pdf-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/theta_truthframe.pdf-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/theta_truthframe.pdf-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/theta_truthframe.pdf" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" style="background-color:white;" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
+  </picture><figcaption class="caption">Model architecture for fitting HadML to final-state hadron distributions.</figcaption>
 
 </figure>
 
-    </div>
-</div>
-<div class="caption">
-    (Left) An overview of the current GAN hadronization model. (Middle) The training history of the best GAN model. (Right) The generated angle distribution compared to observed data.
-</div>
+<p><a href="/assets/img/loss_vs_epochs.pdf">Training history (PDF)</a> · <a href="/assets/img/theta_truthframe.pdf">Generated angle distribution (PDF)</a></p>
 
           </article>
 
@@ -193,7 +155,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Chen-Hsun (Jay)  Chan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2026 Chen-Hsun (Jay)  Chan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>

@@ -171,6 +171,11 @@ table.table a:hover:after :not(.nav-item.dropdown) {
   background-color: transparent;
 }
 
+.news .table,
+.cv .table {
+  color: var(--global-text-color);
+}
+
 figure,
 img {
   max-width: 90vw;
